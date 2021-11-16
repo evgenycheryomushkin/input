@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'input';
+  now: Date = new Date();
 
   refresh(value: string) {
     this.title = value;
